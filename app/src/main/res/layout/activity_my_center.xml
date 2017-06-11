@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context="com.cheyifu.business.activity.MyCenterActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y150"
+        android:background="@color/whiter">
+
+        <RelativeLayout
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/x90"
+            android:layout_height="@dimen/x90"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/x50"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/register_back" />
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_titlebar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="个人中心"
+            android:textColor="@color/text"
+            android:textSize="20.0sp" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/rl_clear"
+        android:layout_marginTop="@dimen/y80"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y161"
+        android:background="@color/whiter"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17.0dip"
+            android:text="0 M"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/x60"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="清理缓存"
+            android:textColor="@color/normal_text"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray"/>
+    <RelativeLayout
+        android:id="@+id/update_pass"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y161"
+        android:background="@color/whiter"
+       >
+        <ImageView style="@style/default_back_iv" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/x60"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="更改密码"
+            android:textColor="@color/normal_text"
+            android:textSize="15.0sp" />
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+
+        android:layout_marginTop="@dimen/y100"
+        android:id="@+id/check_version"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/y161"
+        android:background="@color/whiter"
+       >
+
+        <TextView
+            android:id="@+id/tv_vername"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="17.0dip"
+            android:text="v 1.0.1"
+            android:textSize="15.0sp" />
+
+        <TextView
+            android:layout_marginLeft="@dimen/x60"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="版本检测"
+            android:textColor="@color/normal_text"
+            android:textSize="15.0sp"
+          />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/exit_submit"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/y140"
+        android:layout_marginTop="@dimen/y152"
+        android:layout_marginLeft="@dimen/x80"
+        android:layout_marginRight="@dimen/x80"
+        android:background="@drawable/btn">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="退出登录"
+            android:textColor="@color/whiter"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+</LinearLayout>

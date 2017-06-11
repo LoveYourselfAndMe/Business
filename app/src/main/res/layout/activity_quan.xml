@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context="com.cheyifu.business.activity.QuanActivity">
+
+    <LinearLayout
+        android:id="@+id/quan_conner"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/background"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y150"
+            android:background="@color/whiter">
+
+            <RelativeLayout
+                android:id="@+id/my_center"
+                android:layout_width="@dimen/x100"
+                android:layout_height="@dimen/x100"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/x50"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/gerenzhongxin" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/tv_titlebar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="优惠券"
+                android:textColor="@color/title_text"
+                android:textSize="20.0sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/banner" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y40"
+            android:background="@color/whiter"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y136"
+                android:background="@color/whiter"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/y33"
+                    android:text="车场名"
+                    android:textColor="@color/text"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/y20"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginTop="@dimen/y20"
+                    android:background="@color/gray" />
+
+                <org.angmarch.views.NiceSpinner
+                    android:id="@+id/et_parking_name"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                   />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y136"
+                android:background="@color/whiter"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/y33"
+                    android:text="手机号"
+                    android:textColor="@color/text"
+                    android:textSize="18sp" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/y20"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginTop="@dimen/y20"
+                    android:background="@color/gray" />
+
+                <EditText
+                    android:id="@+id/et_parking_phone"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:background="@null"
+                    android:maxLength="11"
+                    android:inputType="number"
+                    android:hint="请输入您的手机号"
+                    android:paddingLeft="12dp"
+                    android:singleLine="true"
+                    android:textColor="@color/text"
+                    android:textColorHint="@color/gray"
+                    android:textSize="15sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gray" />
+
+            <LinearLayout
+                android:id="@+id/ll_license_input_boxes_content"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y136"
+                android:background="@color/whiter"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/y33"
+                    android:text="车牌号"
+                    android:textColor="@color/text"
+                    android:textSize="18sp" />
+
+        <!--        <View
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/y20"
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_marginTop="@dimen/y20"
+                    android:background="@color/gray" />-->
+
+                <LinearLayout
+                    android:layout_marginLeft="@dimen/x30"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_centerVertical="true"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox1"
+                        style="@style/add_car" />
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox2"
+                        style="@style/add_car" />
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox3"
+                        style="@style/add_car" />
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox4"
+                        style="@style/add_car" />
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox5"
+                        style="@style/add_car" />
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox6"
+                        style="@style/add_car" />
+
+                    <TextView
+                        android:id="@+id/et_car_license_inputbox7"
+                        style="@style/add_car" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:id="@+id/submit_quan"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y140"
+            android:layout_marginLeft="@dimen/x80"
+            android:layout_marginRight="@dimen/x80"
+            android:layout_marginTop="@dimen/y152"
+            android:background="@drawable/btn">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="生成优惠券"
+                android:textColor="@color/whiter"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <android.inputmethodservice.KeyboardView
+            android:id="@+id/keyboard_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#F0EFF4"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:keyBackground="@drawable/bg_white_gray_selector"
+            android:keyPreviewLayout="@layout/key_preview_layout"
+            android:keyTextColor="#5E5E5E"
+            android:keyTextSize="18sp"
+            android:labelTextSize="18sp"
+            android:paddingTop="5dp"
+            android:shadowColor="#ffffff"
+            android:shadowRadius="0.0"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</RelativeLayout>
