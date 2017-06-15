@@ -10,6 +10,7 @@ import android.view.View;
 import android.view.Window;
 
 import com.cheyifu.business.R;
+import com.cheyifu.business.dialog.HTLoadBlock;
 import com.cheyifu.business.utils.Logger;
 import com.cheyifu.business.utils.StatusBarUtil;
 import com.zhy.autolayout.AutoFrameLayout;
@@ -77,18 +78,20 @@ public class BaseActivity extends AppCompatActivity {
 
 
     public void showLoading() {
-        if (dialog != null && dialog.isShowing()) return;
+       /* if (dialog != null && dialog.isShowing()) return;
         dialog = new ProgressDialog(this);
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         dialog.setCanceledOnTouchOutside(false);
         dialog.setProgressStyle(ProgressDialog.STYLE_SPINNER);
         dialog.setMessage("请求网络中...");
-        dialog.show();
+        dialog.show();*/
+        HTLoadBlock.showLoadingMessage(this, "加载中..", true);
     }
 
     public void dismissLoading() {
-        if (dialog != null && dialog.isShowing()) {
-            dialog.dismiss();
-        }
+//        if (dialog != null && dialog.isShowing()) {
+//            dialog.dismiss();
+//        }
+
     }
 }
