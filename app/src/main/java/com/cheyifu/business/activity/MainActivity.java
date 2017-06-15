@@ -93,7 +93,7 @@ public class MainActivity extends BaseActivity {
             ToastUtil.showStringToast("密码不能低于6位");
             return;
         }
-//        login(user, MD5.getEncode(pass));
+        login(user, MD5.getEncode(pass));
 
     }
 
