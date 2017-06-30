@@ -11,7 +11,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/y33</item>
+        <item name="android:layout_marginLeft">33px</item>
         <item name="android:textColor">@color/text</item>
         <item name="android:textSize">20sp</item>
     </style>
@@ -19,7 +19,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_gravity">center_vertical</item>
-        <item name="android:layout_marginLeft">@dimen/y33</item>
+        <item name="android:layout_marginLeft">33px</item>
         <item name="android:textColor">@color/text</item>
         <item name="android:textSize">20sp</item>
     </style>

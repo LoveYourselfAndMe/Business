@@ -9,17 +9,17 @@
     tools:context="com.cheyifu.business.activity.MainActivity">
 
     <ImageView
-        android:layout_width="@dimen/y318"
-        android:layout_height="@dimen/y318"
+        android:layout_width="318px"
+        android:layout_height="318px"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/y222"
+        android:layout_marginTop="272px"
         android:background="@drawable/logo" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="@dimen/y28"
+        android:layout_marginTop="28px"
         android:text="优惠券生成"
         android:textColor="@color/red"
         android:textSize="20sp"
@@ -27,22 +27,22 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y136"
-        android:layout_marginTop="@dimen/y200"
+        android:layout_height="136px"
+        android:layout_marginTop="208px"
         android:background="@color/whiter"
         android:orientation="horizontal">
 
         <ImageView
-            android:layout_width="@dimen/y100"
-            android:layout_height="@dimen/y100"
+            android:layout_width="100px"
+            android:layout_height="100px"
             android:layout_gravity="center_vertical"
-           android:layout_margin="@dimen/y33"
+           android:layout_margin="33px"
             android:background="@drawable/yonghu" />
 
         <View
             android:layout_width="1dp"
-            android:layout_marginTop="@dimen/y20"
-            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
             android:layout_height="match_parent"
             android:background="@color/gray" />
         <EditText
@@ -73,20 +73,20 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y136"
+        android:layout_height="136px"
         android:background="@color/whiter"
         android:orientation="horizontal">
         <ImageView
-            android:layout_width="@dimen/y100"
-            android:layout_height="@dimen/y100"
+            android:layout_width="100px"
+            android:layout_height="100px"
             android:layout_gravity="center_vertical"
-            android:layout_margin="@dimen/y33"
+            android:layout_margin="33px"
             android:background="@drawable/mima" />
 
         <View
             android:layout_width="1dp"
-            android:layout_marginTop="@dimen/y20"
-            android:layout_marginBottom="@dimen/y20"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
             android:layout_height="match_parent"
             android:background="@color/gray" />
         <EditText
@@ -110,7 +110,7 @@
             android:layout_height="wrap_content"
             android:background="@drawable/mima_icon"
             android:layout_gravity="center_vertical"
-            android:layout_marginRight="@dimen/y91"/>
+            android:layout_marginRight="91px"/>
 
 
 
@@ -120,10 +120,10 @@
     <RelativeLayout
         android:id="@+id/submit"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
-        android:layout_marginTop="@dimen/y152"
-        android:layout_marginLeft="@dimen/x80"
-        android:layout_marginRight="@dimen/x80"
+        android:layout_height="137px"
+        android:layout_marginTop="152px"
+        android:layout_marginLeft="80px"
+        android:layout_marginRight="80px"
         android:background="@drawable/btn">
 
         <TextView

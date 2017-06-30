@@ -9,15 +9,15 @@
     tools:context="com.cheyifu.business.activity.modificationActivity">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y150"
+        android:layout_height="150px"
         android:background="@color/whiter">
 
     <RelativeLayout
         android:id="@+id/iv_back_update"
-        android:layout_width="@dimen/x90"
-        android:layout_height="@dimen/x90"
+        android:layout_width="90px"
+        android:layout_height="90px"
         android:layout_centerVertical="true"
-        android:layout_marginLeft="@dimen/x50"
+        android:layout_marginLeft="50px"
         android:gravity="center">
 
         <ImageView
@@ -39,16 +39,16 @@
     </RelativeLayout>
 
     <LinearLayout
-        android:layout_marginTop="@dimen/y100"
+        android:layout_marginTop="100px"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y136"
+        android:layout_height="136px"
         android:background="@color/whiter"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="@dimen/y33"
+            android:layout_marginLeft="33px"
             android:textColor="@color/text"
             android:textSize="20sp"
             android:text="登录账号"
@@ -56,9 +56,9 @@
 
         <View
             android:layout_width="1dp"
-            android:layout_marginTop="@dimen/y20"
-            android:layout_marginBottom="@dimen/y20"
-            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="30px"
             android:layout_height="match_parent"
             android:background="@color/gray"
             />
@@ -83,14 +83,14 @@
         android:background="@color/gray"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y136"
+        android:layout_height="136px"
         android:background="@color/whiter"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="@dimen/y33"
+            android:layout_marginLeft="33px"
             android:textColor="@color/text"
             android:textSize="20sp"
             android:text="历史密码"
@@ -98,9 +98,9 @@
 
         <View
             android:layout_width="1dp"
-            android:layout_marginTop="@dimen/y20"
-            android:layout_marginBottom="@dimen/y20"
-            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="30px"
             android:layout_height="match_parent"
             android:background="@color/gray"
             />
@@ -134,14 +134,14 @@
         android:background="@color/gray"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y136"
+        android:layout_height="136px"
         android:background="@color/whiter"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="@dimen/y33"
+            android:layout_marginLeft="33px"
             android:textColor="@color/text"
             android:textSize="20sp"
             android:text="设置密码"
@@ -149,9 +149,9 @@
 
         <View
             android:layout_width="1dp"
-            android:layout_marginTop="@dimen/y20"
-            android:layout_marginBottom="@dimen/y20"
-            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="30px"
             android:layout_height="match_parent"
             android:background="@color/gray"
             />
@@ -185,14 +185,14 @@
         android:background="@color/gray"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y136"
+        android:layout_height="136px"
         android:background="@color/whiter"
         android:orientation="horizontal">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:layout_marginLeft="@dimen/y33"
+            android:layout_marginLeft="33px"
             android:textColor="@color/text"
             android:textSize="20sp"
             android:text="确认密码"
@@ -200,9 +200,9 @@
 
         <View
             android:layout_width="1dp"
-            android:layout_marginTop="@dimen/y20"
-            android:layout_marginBottom="@dimen/y20"
-            android:layout_marginLeft="@dimen/x30"
+            android:layout_marginTop="20px"
+            android:layout_marginBottom="20px"
+            android:layout_marginLeft="30px"
             android:layout_height="match_parent"
             android:background="@color/gray"
             />
@@ -235,10 +235,10 @@
     <RelativeLayout
         android:id="@+id/submit_modification"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
-        android:layout_marginTop="@dimen/y152"
-        android:layout_marginLeft="@dimen/x80"
-        android:layout_marginRight="@dimen/x80"
+        android:layout_height="140px"
+        android:layout_marginTop="152px"
+        android:layout_marginLeft="80px"
+        android:layout_marginRight="80px"
         android:background="@drawable/btn">
 
         <TextView

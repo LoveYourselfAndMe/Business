@@ -8,15 +8,15 @@
     tools:context="com.cheyifu.business.activity.MyCenterActivity">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y150"
+        android:layout_height="150px"
         android:background="@color/whiter">
 
         <RelativeLayout
             android:id="@+id/iv_back"
-            android:layout_width="@dimen/x90"
-            android:layout_height="@dimen/x90"
+            android:layout_width="90px"
+            android:layout_height="90px"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="@dimen/x50"
+            android:layout_marginLeft="50px"
             android:gravity="center">
 
             <ImageView
@@ -40,9 +40,9 @@
 
     <RelativeLayout
         android:id="@+id/rl_clear"
-        android:layout_marginTop="@dimen/y80"
+        android:layout_marginTop="80px"
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/y161"
+        android:layout_height="161px"
         android:background="@color/whiter"
        >
         <TextView
@@ -55,7 +55,7 @@
             android:textSize="15.0sp" />
 
         <TextView
-            android:layout_marginLeft="@dimen/x60"
+            android:layout_marginLeft="60px"
            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -70,13 +70,13 @@
     <RelativeLayout
         android:id="@+id/update_pass"
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/y161"
+        android:layout_height="161px"
         android:background="@color/whiter"
        >
         <ImageView style="@style/default_back_iv" />
 
         <TextView
-            android:layout_marginLeft="@dimen/x60"
+            android:layout_marginLeft="60px"
            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -89,10 +89,10 @@
 
     <RelativeLayout
 
-        android:layout_marginTop="@dimen/y100"
+        android:layout_marginTop="100px"
         android:id="@+id/check_version"
         android:layout_width="fill_parent"
-        android:layout_height="@dimen/y161"
+        android:layout_height="161px"
         android:background="@color/whiter"
        >
 
@@ -107,7 +107,7 @@
             android:textSize="15.0sp" />
 
         <TextView
-            android:layout_marginLeft="@dimen/x60"
+            android:layout_marginLeft="60px"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
@@ -120,10 +120,10 @@
     <RelativeLayout
         android:id="@+id/exit_submit"
         android:layout_width="match_parent"
-        android:layout_height="@dimen/y140"
-        android:layout_marginTop="@dimen/y152"
-        android:layout_marginLeft="@dimen/x80"
-        android:layout_marginRight="@dimen/x80"
+        android:layout_height="140px"
+        android:layout_marginTop="152px"
+        android:layout_marginLeft="80px"
+        android:layout_marginRight="80px"
         android:background="@drawable/btn">
 
         <TextView
